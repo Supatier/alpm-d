@@ -1,0 +1,9 @@
+{
+	"name": "alpm-d",
+	"authors": [
+		"supatier"
+	],
+	"description": "D bindings to Pacman's (lib) ALPM",
+	"copyright": "Copyright © 2018, supatier",
+	"license": "MPL-2.0"
+}

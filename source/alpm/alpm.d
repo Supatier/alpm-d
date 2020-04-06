@@ -22,11 +22,17 @@
  */
 module alpm.alpm;
 
+import alpm.alpm_list;
 import core.stdc.config;
-import core.stdc.stdio;
 import core.stdc.stdlib;
+import core.stdc.stdarg;
 
 extern (C):
+
+alias off_t = int;
+alias mode_t = uint;
+struct archive;
+struct archive_entry;
 
 /* int64_t */
 /* off_t */
